@@ -69,7 +69,7 @@ pip install selenium loguru transformers
 
 Logs are generated using Loguru, making it easy to track execution and debug issues:
 ```python
-logger.add("data_labeler.log", rotation="10 MB")
+logger.add("data_input.log", rotation="10 MB")
 ```
 Key logs include:
 - Model loading and response generation.
@@ -131,7 +131,7 @@ python main.py
    - Ensure Firefox is updated.
 
 3. **Debugging Logs**:
-   - Check `data_labeler.log` for detailed execution logs.
+   - Check `data_input.log` for detailed execution logs.
 
 ---
 
