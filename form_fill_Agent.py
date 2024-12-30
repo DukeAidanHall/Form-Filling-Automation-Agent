@@ -8,13 +8,13 @@ from selenium.webdriver.firefox.service import Service
 from loguru import logger
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-logger.add("data_labeler.log", rotation="10 MB")
+logger.add("data_input.log", rotation="10 MB")
 
 # -------------------------------------------------------------------------
 # CONFIGURATION
 # -------------------------------------------------------------------------
 
-TASK_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfSMFHZyR0cl5nLmcWgDeiFfID6QLe4k_WdXfSdPapYg2pQfg/viewform?usp=sf_link"
+TASK_URL = [Insert Link]
 GECKO_PATH = r"C:\Tools\geckodriver.exe"
 
 # Hugging Face model configuration
